@@ -1,22 +1,11 @@
-const text = document.querySelector(".second-text");
+const loader = document.querySelector('.loader');
 
-const textloand = () =>{
-    setTimeout(() => {
-        text.textContent = "pw-piont ";
-    },0);
-    setTimeout(() => {
-        text.textContent = "word";
-    },4000);
+window.addEventListener('load',()=>{
+    loader.classList.add('fondu-out');
+});
 
-    setTimeout(() => {
-        text.textContent = "excel";
-    },8000);
-
+const button = document.getElementById('button')
+function clik(){
     
+    bu.classList.add('fondu-out');
 }
-textloand();
-setInterval(textloand,120000)
-
-
-
-
